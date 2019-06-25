@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import FilmPoster from '../FilmPoster/FilmPoster.js'
+import FilmPoster from '../FilmPoster.js'
 
 
 class FilmRow extends React.Component {
