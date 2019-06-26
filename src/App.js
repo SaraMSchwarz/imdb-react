@@ -7,8 +7,10 @@ import FilmDetails from './Components/FilmDetails.js'
 class App extends React.Component {
   render() {
     return (
-      <FilmListing />,
-      <FilmDetails />
+      <div className="film-library">
+        <FilmListing />,
+        <FilmDetails />
+      </div>
     );
   }
 }
